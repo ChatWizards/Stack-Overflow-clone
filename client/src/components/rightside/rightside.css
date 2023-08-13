@@ -1,0 +1,57 @@
+.rightside-content>img{
+    width: 18px;
+    margin-right: 20px;
+}
+.rightside-content>p{
+    font-size: small;
+    margin: 0;
+}
+.rightside-content>span{
+    font-size: small;
+    /* margin-top: 0px; */
+    padding-right: 20px;
+}
+.rightside-components{
+    width: 300px;
+}
+.box-item{
+    width: 300px;
+    background-color: #fdf7e2;
+    border: 1px solid #f1e5bc;
+}
+.box-item>h4{
+    background-color: #fbf3d5;
+    padding: 13px;
+    border: 2px solid #f1e5bc;
+    font-size: 13px;
+    font-weight: bold;
+}
+.rightside-content{
+    display: flex;
+    padding-left:20px;
+    padding-top: 13px;
+    align-items: center;
+    justify-content: space-around;
+}
+.first{
+    margin-top: 55px;
+}
+.recent-tags>h4{
+    margin-top: 0;
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.recent-tags{
+    margin-top: 50px;
+    background-color: white;
+    border: 2px solid rgba(0,0,0,0.3);
+}
+.watched-tags{
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.watched-tags>div{
+    margin: 10px ;
+}

@@ -1,0 +1,13 @@
+.answer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.answer-content>button{
+    border: none;
+    color: #8d9090;
+    background-color: white;
+}
+.answer-right>div{
+    display: flex;
+}
